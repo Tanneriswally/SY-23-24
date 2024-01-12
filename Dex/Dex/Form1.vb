@@ -1,8 +1,11 @@
-﻿Imports System.Windows.Forms.VisualStyles.VisualStyleElement
+﻿Imports System.IO
+Imports System.Windows.Forms.VisualStyles.VisualStyleElement
 
 Public Class Form1
+    Dim records(50) As String
+
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
-        PictureBox1.image = Nothing
+        PictureBox1.Image = Nothing
         Field1.Text = ""
         field2.Text = ""
         field3.Text = ""
@@ -31,7 +34,16 @@ Public Class Form1
         outFile.Write("|")
         outFile.Write(PictureBox1.ImageLocation)
         outFile.WriteLine()
+        outFile.Close()
 
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If IO.File.Exists("") Then
+            Dim infile As New StreamReader("data.text")
+            records(1) = infile.ReadLine
+            infile.Close()
+        End If
     End Sub
 End Class
 
