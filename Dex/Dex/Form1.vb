@@ -39,10 +39,10 @@ Public Class Form1
     End Sub
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        If IO.File.Exists("") Then
-            Dim infile As New StreamReader("data.text")
-            records(1) = infile.ReadLine
-            infile.Close()
+        If IO.File.Exists("data.txt") Then
+            Dim inFile As New StreamReader("data.txt")
+            records(1) = inFile.ReadLine
+            inFile.Close()
         End If
     End Sub
 End Class
