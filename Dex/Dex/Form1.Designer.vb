@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.NewToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SaveToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -60,19 +59,19 @@ Partial Class Form1
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SaveToolStripMenuItem, Me.KnewToolStripMenuItem})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(124, 24)
-        Me.NewToolStripMenuItem.Text = "Football Teams"
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(178, 24)
+        Me.NewToolStripMenuItem.Text = "Vidoe Game Charecters"
         '
         'SaveToolStripMenuItem
         '
         Me.SaveToolStripMenuItem.Name = "SaveToolStripMenuItem"
-        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
+        Me.SaveToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.SaveToolStripMenuItem.Text = "Save"
         '
         'KnewToolStripMenuItem
         '
         Me.KnewToolStripMenuItem.Name = "KnewToolStripMenuItem"
-        Me.KnewToolStripMenuItem.Size = New System.Drawing.Size(123, 26)
+        Me.KnewToolStripMenuItem.Size = New System.Drawing.Size(224, 26)
         Me.KnewToolStripMenuItem.Text = "New"
         '
         'Label1
@@ -89,27 +88,27 @@ Partial Class Form1
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 131)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 20)
+        Me.Label2.Size = New System.Drawing.Size(51, 20)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Game:"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(12, 241)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(53, 20)
+        Me.Label3.Size = New System.Drawing.Size(40, 20)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Label3"
+        Me.Label3.Text = "Year:"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(12, 186)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 20)
+        Me.Label4.Size = New System.Drawing.Size(39, 20)
         Me.Label4.TabIndex = 4
-        Me.Label4.Text = "Label4"
+        Me.Label4.Text = "Age:"
         '
         'Field1
         '
@@ -141,17 +140,17 @@ Partial Class Form1
         '
         'field5
         '
-        Me.field5.Location = New System.Drawing.Point(95, 303)
+        Me.field5.Location = New System.Drawing.Point(91, 280)
         Me.field5.Name = "field5"
         Me.field5.Size = New System.Drawing.Size(125, 27)
         Me.field5.TabIndex = 9
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(221, 144)
+        Me.PictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.PictureBox1.Location = New System.Drawing.Point(235, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(509, 62)
+        Me.PictureBox1.Size = New System.Drawing.Size(213, 161)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 10
         Me.PictureBox1.TabStop = False
@@ -162,7 +161,7 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(254, 238)
+        Me.Button1.Location = New System.Drawing.Point(257, 201)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(94, 29)
         Me.Button1.TabIndex = 11
@@ -171,16 +170,16 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(354, 258)
+        Me.Button2.Location = New System.Drawing.Point(382, 201)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(94, 29)
         Me.Button2.TabIndex = 12
-        Me.Button2.Text = "Prevouse"
+        Me.Button2.Text = "Previous"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(484, 258)
+        Me.Button3.Location = New System.Drawing.Point(257, 258)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(94, 29)
         Me.Button3.TabIndex = 13
@@ -189,7 +188,7 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(565, 212)
+        Me.Button4.Location = New System.Drawing.Point(382, 258)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(94, 29)
         Me.Button4.TabIndex = 14
