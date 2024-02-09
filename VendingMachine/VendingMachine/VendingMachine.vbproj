@@ -120,5 +120,23 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2817%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2818%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2818%291.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2819%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2820%29.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2821%29.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
