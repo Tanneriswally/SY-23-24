@@ -31,15 +31,13 @@
     Public Sub InsertDollar()
         Dollars = Dollars + 1
     End Sub
-    Public Sub buy(p As ProductControl)
-        p.Buy()
-        If p.ProductCount > 0 And Total >= p.ProductPrice Then
-            _total = Total - p.ProductPrice
+    Public Sub spin()
+        If Total >= 1 Then
+            _total = Total - 1
             Quarters = 0
             Dimes = 0
             Dollars = 0
             Nickles = _total / 0.05
-            RaiseEvent Dispense(p.ProductPicture)
         End If
     End Sub
 End Class
