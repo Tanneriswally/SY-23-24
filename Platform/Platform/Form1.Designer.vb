@@ -47,7 +47,7 @@ Partial Class Frm2DPlatformer
         'picPlayer
         '
         Me.picPlayer.BackColor = System.Drawing.Color.Fuchsia
-        Me.picPlayer.Location = New System.Drawing.Point(12, 333)
+        Me.picPlayer.Location = New System.Drawing.Point(47, 315)
         Me.picPlayer.Name = "picPlayer"
         Me.picPlayer.Size = New System.Drawing.Size(48, 32)
         Me.picPlayer.TabIndex = 0
@@ -56,7 +56,7 @@ Partial Class Frm2DPlatformer
         'picAir
         '
         Me.picAir.BackColor = System.Drawing.SystemColors.ActiveCaption
-        Me.picAir.Location = New System.Drawing.Point(-6, -5)
+        Me.picAir.Location = New System.Drawing.Point(-6, -3)
         Me.picAir.Name = "picAir"
         Me.picAir.Size = New System.Drawing.Size(812, 361)
         Me.picAir.TabIndex = 1
@@ -64,9 +64,10 @@ Partial Class Frm2DPlatformer
         '
         'picGround
         '
-        Me.picGround.Location = New System.Drawing.Point(-6, 394)
+        Me.picGround.BackColor = System.Drawing.Color.Green
+        Me.picGround.Location = New System.Drawing.Point(-6, 353)
         Me.picGround.Name = "picGround"
-        Me.picGround.Size = New System.Drawing.Size(812, 65)
+        Me.picGround.Size = New System.Drawing.Size(822, 106)
         Me.picGround.TabIndex = 2
         Me.picGround.TabStop = False
         '
@@ -91,7 +92,7 @@ Partial Class Frm2DPlatformer
         'mousePictureBox
         '
         Me.mousePictureBox.Image = Global.Platform.My.Resources.Resources.download__33_
-        Me.mousePictureBox.Location = New System.Drawing.Point(167, 84)
+        Me.mousePictureBox.Location = New System.Drawing.Point(115, 66)
         Me.mousePictureBox.Name = "mousePictureBox"
         Me.mousePictureBox.Size = New System.Drawing.Size(123, 62)
         Me.mousePictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage

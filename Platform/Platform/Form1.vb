@@ -73,4 +73,8 @@
     Private Sub mousePictureBox_Click(sender As Object, e As EventArgs) Handles mousePictureBox.Click
 
     End Sub
+
+    Private Sub Mover1_Load(sender As Object, e As EventArgs) Handles Mover1.Load
+
+    End Sub
 End Class
