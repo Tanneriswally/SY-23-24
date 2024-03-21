@@ -9,5 +9,10 @@
         TextBox1.Text = (+45)
         PictureBox10.Visible = True
     End Sub
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        PictureBox3.Visible = False
+        TextBox1.Text = (+80)
+        PictureBox7.Visible = True
+    End Sub
 End Class
 'form2.showdialoge
