@@ -191,9 +191,9 @@ Partial Class Form1
         'PictureBox7
         '
         Me.PictureBox7.Image = Global.Project.My.Resources.Resources.download__40_
-        Me.PictureBox7.Location = New System.Drawing.Point(684, 134)
+        Me.PictureBox7.Location = New System.Drawing.Point(569, 134)
         Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox7.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox7.TabIndex = 14
         Me.PictureBox7.TabStop = False
@@ -202,9 +202,9 @@ Partial Class Form1
         'PictureBox8
         '
         Me.PictureBox8.Image = Global.Project.My.Resources.Resources.download__38_
-        Me.PictureBox8.Location = New System.Drawing.Point(569, 134)
+        Me.PictureBox8.Location = New System.Drawing.Point(723, 134)
         Me.PictureBox8.Name = "PictureBox8"
-        Me.PictureBox8.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox8.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox8.TabIndex = 15
         Me.PictureBox8.TabStop = False
@@ -213,9 +213,9 @@ Partial Class Form1
         'PictureBox9
         '
         Me.PictureBox9.Image = Global.Project.My.Resources.Resources._0fe3c7da_2866_4b26_bbc1_614c13731517
-        Me.PictureBox9.Location = New System.Drawing.Point(684, 338)
+        Me.PictureBox9.Location = New System.Drawing.Point(569, 237)
         Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox9.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox9.TabIndex = 16
         Me.PictureBox9.TabStop = False
@@ -224,9 +224,9 @@ Partial Class Form1
         'PictureBox10
         '
         Me.PictureBox10.Image = Global.Project.My.Resources.Resources.download__36_1
-        Me.PictureBox10.Location = New System.Drawing.Point(569, 338)
+        Me.PictureBox10.Location = New System.Drawing.Point(723, 237)
         Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox10.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox10.TabIndex = 17
         Me.PictureBox10.TabStop = False
@@ -235,9 +235,9 @@ Partial Class Form1
         'PictureBox11
         '
         Me.PictureBox11.Image = Global.Project.My.Resources.Resources.download__39_
-        Me.PictureBox11.Location = New System.Drawing.Point(684, 237)
+        Me.PictureBox11.Location = New System.Drawing.Point(569, 338)
         Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox11.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox11.TabIndex = 18
         Me.PictureBox11.TabStop = False
@@ -246,9 +246,9 @@ Partial Class Form1
         'PictureBox12
         '
         Me.PictureBox12.Image = Global.Project.My.Resources.Resources.images__11_
-        Me.PictureBox12.Location = New System.Drawing.Point(569, 237)
+        Me.PictureBox12.Location = New System.Drawing.Point(723, 338)
         Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(91, 73)
+        Me.PictureBox12.Size = New System.Drawing.Size(125, 89)
         Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox12.TabIndex = 19
         Me.PictureBox12.TabStop = False
