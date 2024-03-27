@@ -54,11 +54,5 @@
         PictureBox11.Visible = False
         PictureBox12.Visible = False
     End Sub
-
-
-
-
-
-
 End Class
 'form2.showdialoge
