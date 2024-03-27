@@ -43,6 +43,7 @@ Partial Class Form1
         Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.BuyButton = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -254,11 +255,21 @@ Partial Class Form1
         Me.PictureBox12.TabStop = False
         Me.PictureBox12.Visible = False
         '
+        'BuyButton
+        '
+        Me.BuyButton.Location = New System.Drawing.Point(736, 87)
+        Me.BuyButton.Name = "BuyButton"
+        Me.BuyButton.Size = New System.Drawing.Size(94, 29)
+        Me.BuyButton.TabIndex = 20
+        Me.BuyButton.Text = "Buy"
+        Me.BuyButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(907, 450)
+        Me.Controls.Add(Me.BuyButton)
         Me.Controls.Add(Me.PictureBox12)
         Me.Controls.Add(Me.PictureBox11)
         Me.Controls.Add(Me.PictureBox10)
@@ -318,4 +329,5 @@ Partial Class Form1
     Friend WithEvents PictureBox10 As PictureBox
     Friend WithEvents PictureBox11 As PictureBox
     Friend WithEvents PictureBox12 As PictureBox
+    Friend WithEvents BuyButton As Button
 End Class
