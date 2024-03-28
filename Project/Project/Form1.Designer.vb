@@ -44,6 +44,7 @@ Partial Class Form1
         Me.septumPB2 = New System.Windows.Forms.PictureBox()
         Me.bridgePB2 = New System.Windows.Forms.PictureBox()
         Me.BuyButton = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.nosePB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.septumPB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tonguePB1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -175,7 +176,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(555, 89)
+        Me.Label1.Location = New System.Drawing.Point(560, 33)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(44, 20)
         Me.Label1.TabIndex = 12
@@ -183,16 +184,16 @@ Partial Class Form1
         '
         'totalTB
         '
-        Me.totalTB.Location = New System.Drawing.Point(605, 89)
+        Me.totalTB.Location = New System.Drawing.Point(610, 32)
         Me.totalTB.Name = "totalTB"
         Me.totalTB.ReadOnly = True
-        Me.totalTB.Size = New System.Drawing.Size(125, 27)
+        Me.totalTB.Size = New System.Drawing.Size(115, 27)
         Me.totalTB.TabIndex = 13
         '
         'tonguePB2
         '
         Me.tonguePB2.Image = Global.Project.My.Resources.Resources.download__40_
-        Me.tonguePB2.Location = New System.Drawing.Point(569, 134)
+        Me.tonguePB2.Location = New System.Drawing.Point(560, 81)
         Me.tonguePB2.Name = "tonguePB2"
         Me.tonguePB2.Size = New System.Drawing.Size(125, 89)
         Me.tonguePB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -203,7 +204,7 @@ Partial Class Form1
         'earPB2
         '
         Me.earPB2.Image = Global.Project.My.Resources.Resources.download__38_
-        Me.earPB2.Location = New System.Drawing.Point(723, 134)
+        Me.earPB2.Location = New System.Drawing.Point(700, 81)
         Me.earPB2.Name = "earPB2"
         Me.earPB2.Size = New System.Drawing.Size(125, 89)
         Me.earPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -214,7 +215,7 @@ Partial Class Form1
         'lipPB2
         '
         Me.lipPB2.Image = Global.Project.My.Resources.Resources._0fe3c7da_2866_4b26_bbc1_614c13731517
-        Me.lipPB2.Location = New System.Drawing.Point(569, 237)
+        Me.lipPB2.Location = New System.Drawing.Point(560, 184)
         Me.lipPB2.Name = "lipPB2"
         Me.lipPB2.Size = New System.Drawing.Size(125, 89)
         Me.lipPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -225,7 +226,7 @@ Partial Class Form1
         'nosePB2
         '
         Me.nosePB2.Image = Global.Project.My.Resources.Resources.download__36_1
-        Me.nosePB2.Location = New System.Drawing.Point(723, 237)
+        Me.nosePB2.Location = New System.Drawing.Point(700, 184)
         Me.nosePB2.Name = "nosePB2"
         Me.nosePB2.Size = New System.Drawing.Size(125, 89)
         Me.nosePB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -236,7 +237,7 @@ Partial Class Form1
         'septumPB2
         '
         Me.septumPB2.Image = Global.Project.My.Resources.Resources.download__39_
-        Me.septumPB2.Location = New System.Drawing.Point(569, 338)
+        Me.septumPB2.Location = New System.Drawing.Point(560, 285)
         Me.septumPB2.Name = "septumPB2"
         Me.septumPB2.Size = New System.Drawing.Size(125, 89)
         Me.septumPB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -247,7 +248,7 @@ Partial Class Form1
         'bridgePB2
         '
         Me.bridgePB2.Image = Global.Project.My.Resources.Resources.images__11_
-        Me.bridgePB2.Location = New System.Drawing.Point(723, 338)
+        Me.bridgePB2.Location = New System.Drawing.Point(700, 285)
         Me.bridgePB2.Name = "bridgePB2"
         Me.bridgePB2.Size = New System.Drawing.Size(125, 89)
         Me.bridgePB2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -257,18 +258,28 @@ Partial Class Form1
         '
         'BuyButton
         '
-        Me.BuyButton.Location = New System.Drawing.Point(736, 87)
+        Me.BuyButton.Location = New System.Drawing.Point(731, 31)
         Me.BuyButton.Name = "BuyButton"
         Me.BuyButton.Size = New System.Drawing.Size(94, 29)
         Me.BuyButton.TabIndex = 20
         Me.BuyButton.Text = "Buy"
         Me.BuyButton.UseVisualStyleBackColor = True
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Location = New System.Drawing.Point(81, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(53, 20)
+        Me.Label2.TabIndex = 21
+        Me.Label2.Text = "Label2"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(909, 450)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BuyButton)
         Me.Controls.Add(Me.bridgePB2)
         Me.Controls.Add(Me.septumPB2)
@@ -330,4 +341,5 @@ Partial Class Form1
     Friend WithEvents septumPB2 As PictureBox
     Friend WithEvents bridgePB2 As PictureBox
     Friend WithEvents BuyButton As Button
+    Friend WithEvents Label2 As Label
 End Class
