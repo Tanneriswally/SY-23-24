@@ -133,6 +133,9 @@
   <data name="0fe3c7da-2866-4b26-bbc1-614c13731517" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\0fe3c7da-2866-4b26-bbc1-614c13731517.tmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download (40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download (40).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="download (34)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download (34).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -148,7 +151,7 @@
   <data name="images (11)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images (11).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download (40)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download (40).jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Snuffgggfg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snuffgggfg.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

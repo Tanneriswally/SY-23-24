@@ -48,4 +48,9 @@
         bridgePB2.Visible = False
         lipPB2.Visible = False
     End Sub
+
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        HomePage.ShowDialog()
+    End Sub
 End Class
