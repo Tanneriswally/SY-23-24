@@ -45,6 +45,11 @@ Partial Class Form1
         Me.bridgePB2 = New System.Windows.Forms.PictureBox()
         Me.BuyButton = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
         CType(Me.nosePB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.septumPB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tonguePB1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -268,17 +273,67 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(81, 9)
+        Me.Label2.Location = New System.Drawing.Point(78, 10)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(53, 20)
+        Me.Label2.Size = New System.Drawing.Size(60, 20)
         Me.Label2.TabIndex = 21
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Septum"
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Location = New System.Drawing.Point(261, 10)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(43, 20)
+        Me.Label3.TabIndex = 22
+        Me.Label3.Text = "Nose"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Location = New System.Drawing.Point(426, 9)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(58, 20)
+        Me.Label4.TabIndex = 23
+        Me.Label4.Text = "Tongue"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(92, 214)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(30, 20)
+        Me.Label5.TabIndex = 24
+        Me.Label5.Text = "Ear"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(261, 214)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(53, 20)
+        Me.Label6.TabIndex = 25
+        Me.Label6.Text = "Bridge"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(440, 214)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(29, 20)
+        Me.Label7.TabIndex = 26
+        Me.Label7.Text = "Lip"
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(909, 450)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BuyButton)
         Me.Controls.Add(Me.bridgePB2)
@@ -302,7 +357,7 @@ Partial Class Form1
         Me.Controls.Add(Me.septumPB1)
         Me.Controls.Add(Me.nosePB1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Piercings"
         CType(Me.nosePB1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.septumPB1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.tonguePB1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -342,4 +397,9 @@ Partial Class Form1
     Friend WithEvents bridgePB2 As PictureBox
     Friend WithEvents BuyButton As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
 End Class
