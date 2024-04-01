@@ -45,6 +45,7 @@ Partial Class Form1
         Me.bridgePB2 = New System.Windows.Forms.PictureBox()
         Me.BuyButton = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.nosePB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.septumPB1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.tonguePB1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -274,11 +275,21 @@ Partial Class Form1
         Me.Label2.TabIndex = 21
         Me.Label2.Text = "Label2"
         '
+        'Button1
+        '
+        Me.Button1.Location = New System.Drawing.Point(12, 409)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(94, 29)
+        Me.Button1.TabIndex = 22
+        Me.Button1.Text = "Button1"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(909, 450)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BuyButton)
         Me.Controls.Add(Me.bridgePB2)
@@ -342,4 +353,5 @@ Partial Class Form1
     Friend WithEvents bridgePB2 As PictureBox
     Friend WithEvents BuyButton As Button
     Friend WithEvents Label2 As Label
+    Friend WithEvents Button1 As Button
 End Class
