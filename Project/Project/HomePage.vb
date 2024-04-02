@@ -1,6 +1,6 @@
 ﻿Public Class HomePage
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Me.Close()
+        Me.Show()
         Form1.ShowDialog()
     End Sub
 
