@@ -1,0 +1,45 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MYPAINT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="drawingCanvas1" Margin="0,0,4,56">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="79*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="66*"/>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="DrawingCanvas" Margin="22,1,0,55" Grid.RowSpan="3" HorizontalAlignment="Left" Width="792" >
+            <Rectangle Fill="#FF745CC5" HorizontalAlignment="Left" Height="380" Stroke="Black" VerticalAlignment="Top" Width="642" Canvas.Left="145" Canvas.Top="8"/>
+            <Rectangle x:Name="colorRec1" Height="23" Canvas.Left="-9" Stroke="Black" Canvas.Top="17" Width="26" Fill="#FFF33413"/>
+        </Canvas>
+        <Rectangle x:Name="grad2" Fill="#FF8BF477" Height="20" Stroke="Black" Width="20" HorizontalAlignment="Left" Canvas.Left="42" Canvas.Top="123" VerticalAlignment="Top" Margin="10,75,0,0"/>
+        <Rectangle x:Name="grad1" Fill="#FFC739D4" Height="20" Stroke="Black" Width="20" HorizontalAlignment="Left" Canvas.Left="12" Canvas.Top="122" VerticalAlignment="Top" RenderTransformOrigin="0.472,0.434" Margin="43,76,0,0">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-1.149"/>
+                    <TranslateTransform X="0.931" Y="0.631"/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle x:Name="C3" Height="21" Canvas.Left="14" Stroke="Black" Canvas.Top="82" Width="23" Fill="#FF4025D1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="42,135,0,0"/>
+        <Rectangle x:Name="colorRec2" Height="22" Canvas.Left="46" Stroke="Black" Canvas.Top="81" Width="24" HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FFE5D438" Margin="53,17,0,0"/>
+        <Rectangle x:Name="C4" Height="22" Canvas.Left="14" Stroke="Black" Canvas.Top="53" Width="24" HorizontalAlignment="Left" VerticalAlignment="Top" Fill="#FF28A7DA" Margin="8,131,0,0"/>
+        <Button Content="Undo" Canvas.Left="9" Canvas.Top="156" RenderTransformOrigin="-0.282,1.046" Background="{x:Null}" Margin="88,93,667,46"/>
+        <Button Content="Clear" Canvas.Left="53" Canvas.Top="157" Background="{x:Null}" RenderTransformOrigin="0.299,0.27" Margin="102,125,659,12"/>
+        <Label x:Name="shapeLabel" Content="" Canvas.Left="33" Canvas.Top="342" Margin="15,60,719,50" Grid.Row="2"/>
+        <Button x:Name="Rectangle" Content="Rectangle" Canvas.Left="19" Canvas.Top="23" Margin="92,15,641,116"/>
+        <Button x:Name="Poly" Content="Polygon" Canvas.Left="20" Canvas.Top="2" Margin="86,61,648,73"/>
+        <Slider x:Name="widthSlider" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Center" Width="63" Minimum="5" Maximum="50" Grid.Row="1"/>
+        <Slider x:Name="heightSlider" HorizontalAlignment="Left" Margin="20,68,0,0" VerticalAlignment="Top" Width="63" Minimum="5" Maximum="50" Grid.Row="1"/>
+        <Rectangle x:Name="blackBox" Fill="#FF120502" HorizontalAlignment="Left" Height="20" Margin="9,99,0,0" Stroke="Black" VerticalAlignment="Top" Width="20" Grid.Row="2"/>
+        <Slider x:Name="angleSlider" HorizontalAlignment="Left" Margin="20,15,0,0" VerticalAlignment="Top" Width="63" Minimum="5" Maximum="50" Grid.Row="2"/>
+
+    </Grid>
+</Window>
+
