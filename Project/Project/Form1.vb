@@ -1,58 +1,56 @@
 ﻿Public Class Form1
-    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
-        PictureBox2.Visible = False
-        TextBox1.Text = (+20)
-        PictureBox11.Visible = True
+    Dim total As Integer
+    Private Sub totalTB_TextChanged(sender As Object, e As EventArgs) Handles totalTB.TextChanged
+        total = totalTB.Text
     End Sub
-    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        PictureBox1.Visible = False
-        TextBox1.Text = (+20)
-        PictureBox10.Visible = True
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles septumBuy.Click
+        septumPB1.Visible = False
+        septumPB2.Visible = True
+        totalTB.Text = (total + 20)
     End Sub
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        PictureBox3.Visible = False
-        TextBox1.Text = (80)
-        PictureBox7.Visible = True
-        PictureBox8.Visible = False
-        PictureBox10.Visible = False
-        PictureBox11.Visible = False
-        PictureBox12.Visible = False
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles noseBuy.Click
+        nosePB1.Visible = False
+        nosePB2.Visible = True
+        totalTB.Text = (total + 20)
     End Sub
-    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
-        PictureBox6.Visible = False
-        TextBox1.Text = (35)
-        PictureBox7.Visible = False
-        PictureBox8.Visible = True
-        PictureBox10.Visible = False
-        PictureBox11.Visible = False
-        PictureBox12.Visible = False
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles tongueBuy.Click
+        tonguePB1.Visible = False
+        tonguePB2.Visible = True
+        totalTB.Text = (total + 80)
     End Sub
-    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
-        PictureBox5.Visible = False
-        TextBox1.Text = (65)
-        PictureBox12.Visible = True
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles earBuy.Click
+        earPB1.Visible = False
+        earPB2.Visible = True
+        totalTB.Text = (total + 35)
     End Sub
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
-        PictureBox4.Visible = False
-        TextBox1.Visible = (80)
-        PictureBox9.Visible = True
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles bridgeBuy.Click
+        bridgePB1.Visible = False
+        bridgePB2.Visible = True
+        totalTB.Text = (total + 65)
+    End Sub
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles lipBuy.Click
+        lipPB1.Visible = False
+        lipPB2.Visible = True
+        totalTB.Text = (total + 80)
+    End Sub
+    Private Sub BuyButton_Click(sender As Object, e As EventArgs) Handles BuyButton.Click
+        septumPB1.Visible = True
+        nosePB1.Visible = True
+        tonguePB1.Visible = True
+        earPB1.Visible = True
+        bridgePB1.Visible = True
+        lipPB1.Visible = True
+        totalTB.Text = "0"
+        septumPB2.Visible = False
+        nosePB2.Visible = False
+        tonguePB2.Visible = False
+        earPB2.Visible = False
+        bridgePB2.Visible = False
+        lipPB2.Visible = False
     End Sub
 
-    Private Sub BuyButton_Click(sender As Object, e As EventArgs) Handles BuyButton.Click
-        PictureBox4.Visible = True
-        PictureBox1.Visible = True
-        PictureBox3.Visible = True
-        PictureBox2.Visible = True
-        PictureBox5.Visible = True
-        PictureBox6.Visible = True
-        TextBox1.Text = "0"
-        PictureBox6.Visible = False
-        TextBox1.Text = (35)
-        PictureBox7.Visible = False
-        PictureBox8.Visible = False
-        PictureBox10.Visible = False
-        PictureBox11.Visible = False
-        PictureBox12.Visible = False
+    Private Sub Button1_Click_1(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        HomePage.ShowDialog()
     End Sub
 End Class
-'form2.showdialoge
